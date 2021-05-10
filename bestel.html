@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="styles/main.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,400i" rel="stylesheet">	
+	<title>Mario's Pizza!</title>
+</head>
+<body>	
+	<div class="header">
+		<a class="home" href="index.html#home">
+		<h1 class="welkom">Welkom bij Mario's <span class="pizza">Pizza!</span> </h1>
+	</div>
+	<div class="navbar">
+		<ul class="nav">
+  			<li class="a1"><a class="itemNav1" href="pizza.html#Pizzas">Pizza's</a></li>
+			<li class="a2"><a class="itemNav2" href="over_ons.html#Over_ons">Over ons</a></li>
+  			<li class="a3"><a class="itemNav3" href="contact.html#Contact">Contact</a></li>
+		</ul>
+	</div>
+	<div class="d_01">
+		<p class="hq2"> Bestel ! </p>
+		<hr class="hr1">
+		</hr>
+			<form class="formBestel" action="bestel.php" method="GET" enctype="text/plain">
+
+				<label for="voornaam">Voornaam</label> : <input type="text" name="voornaam" class="formfieldO" id="voornaam" required/><br/>
+
+                <label for="achternaam">Achternaam</label> : <input type="text" name="achternaam" class="formfieldO" id="achternaam" required/><br/>
+
+				<label for="plaats">Plaats</label> : <input type="text" name="plaats" class="formfieldO" id="plaats" required/><br/>
+
+				<label for="postcode">Postcode</label> : <input type="text" name="postcode" class="formfieldO" id="postcode" maxlength="7" required/><br/>
+
+				<label for="huisnummer">Huisnummer</label> : <input type="text" name="huisnummer" class="formfieldO" id="huisnummer" pattern="[0-9.-]+" required><br/>
+				
+				<label for="margherita">Pizza Margherita</label> : <input type="number" name="margherita" class="formfieldO" id="margherita" value="0"/><br/>
+
+				<label for="salami">Pizza Salami</label> : <input type="number" name="salami" class="formfieldO" id="salami" value="0"/><br/>
+				
+				<label for="hawaii">Pizza Hawaii </label> : <input type="number" name="hawaii" class="formfieldO" id="hawaii" value="0"/><br/>
+
+				<label for="siciliane">Pizza Siciliane</label> : <input type="number" name="siciliane" class="formfieldO" id="siciliane" value="0"/><br/>
+
+				<label for="pepperoni">Pizza Pepperoni</label> : <input type="number" name="pepperoni" class="formfieldO" id="pepperoni" value="0"/><br/>
+
+				<label for="kebab">Pizza Kebab</label> : <input type="number" name="kebab" class="formfieldO" id="kebab" value="0"/><br/>
+
+				<label for="opmerking">Opmerking</label><br/><br/>
+				<textarea name="opmerking" id="opmerking" class="formtextareaO" rows="7" cols="69"></textarea><br/><br/>
+
+				<input type="submit" name="submit" value="Bestel!" class="submitO" href="bedankt.html"/>			
+			</form>
+		<br/>		
+		<hr class="hr1">
+		</hr>
+	<br/>
+	<br/>
+	</div>
+	<br/>
+	<div class="alvdiv"><span class="tel">Klantenservice: 0800 040 292 0203</span> <a class="alv" href="alv.html#algemenevoorwaarden" target="_blank">Algemene voorwaarden</a></div>
+</body>
+</html>

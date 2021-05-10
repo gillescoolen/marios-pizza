@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulier</title>
+    </head>
+    <body>
+        <form id="formulier" action="?" method="GET" enctype="text/plain">
+            <fieldset>
+                <legend>
+                    Formulier
+                </legend><br/><br/>
+                    <label for="voornaam">Voornaam</label> : <input type="text" name="voornaam" id="voornaam"/><br/><br/>
+                    <label for="achternaam">Achternaam</label> : <input type="text" name="achternaam" id="achternaam"/><br/><br/>
+                    <label for="geslacht">Geslacht</label> : <input type="radio" name="geslacht" id="geslacht" value="geslacht"/>Man<input type="radio" name="geslacht" id="geslacht" value="geslacht"/>Vrouw<br/><br/>
+                    <label for="relatie">Relatie</label> : <input type="checkbox" name="relatie" id="relatie" value="relatie"/>Gehuwd<input type="checkbox" name="relatie" id="relatie" value="relatie"/>Single<input type="checkbox" name="relatie" id="relatie" value="relatie"/>Lastig<br/><br/>
+                    <label for="opmerking">Opmerking</label> :<br/><br/>
+                    <textarea name="woonplaats" id="opmerking" rows="20" cols="40"></textarea><br/><br/>
+                    <label for="woonplaats">Woonplaats</label> : 
+                    <select name="woonpaats" id="woonplaats">
+                        <option value="none"> -- Maak een keuze --</option>
+                        <option value="mfw"> mfw </option>
+                        <option value="FGM"> FGM </option>
+                        <option value="FBM"> FBM </option>
+                    </select>
+            </fieldset>
+        </form>
+
+
+</html>
